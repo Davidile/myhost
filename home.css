@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    
+}
+
+
+body{
+    margin: 0;
+    list-style: none;
+
+   
+}
+button{
+    background-color: aqua;
+    color: blue;
+    width: 50%;
+}
+
+button a{
+    background-color: black;
+    color: whitesmoke;
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: large;
+    text-decoration: none;
+    
+    position:absolute;
+    top:2%;
+    right: 5%;
+}
+.containerl{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: orangered;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center ;
+    padding: 20px;
+    position: relative;
+    
+
+    
+}
+.active.containerl{
+    filter: blur(10px) brightness(.7);
+}
+
+
+
+    
+
+
+.b{
+    padding: 5px 10px;
+    background-color: blue;
+    color:white;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3s);
+    cursor: pointer;
+    
+    
+}
+
+
+.contain{
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height:200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3s);
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    
+
+}
+
+.pro{
+    visibility: hidden;
+    
+    top:45%;
+    opacity: 2;
+}
+
+.btn{
+    margin-top: 10px;
+    width:100px;
+    height:50px;
+    background-color: orangered;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+input{
+    
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+input::placeholder{
+    color: red;
+}
+
+
